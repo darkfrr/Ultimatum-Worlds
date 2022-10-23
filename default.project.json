@@ -15,11 +15,7 @@
       }
     },
 
-    "ServerScriptService": {
-      "Server2": {
-        "$path": "src/server2"
-      }
-    },
+
 
     "StarterPlayer": {
       "StarterPlayerScripts": {

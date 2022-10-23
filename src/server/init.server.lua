@@ -13,7 +13,3 @@ Model.Name = "Dark's NPC"
 Model.Dark.Humanoid.DisplayName = "jamal"
 Model.Dark.Humanoid.HealthDisplayType = "DisplayWhenDamaged"
 Model.Dark.Humanoid.DisplayDistanceType = "Viewer"
-wait(5)
-local ServerScriptService = Instance.new("ServerScriptService")
-
-folder.Parent = ServerScriptService

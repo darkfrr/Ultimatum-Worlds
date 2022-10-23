@@ -9,4 +9,5 @@ local ID = 11351588353
 local Model = InsertService:LoadAsset(ID)
 Model.Parent = folder
 Model.Name = "Dark's NPC"
-local Dark = Model.Dark.Humanoid.DisplayName = "POOP"
+local dark = Model:FindFirstChild()
+dark.Humanoid.DisplayName = "Dark"

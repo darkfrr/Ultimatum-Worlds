@@ -7,7 +7,9 @@
 local InsertService = game:GetService("InsertService")
 local ID = 11351588353
 local Model = InsertService:LoadAsset(ID)
+-- Model Propeties for Dark's NPC
 Model.Parent = folder
 Model.Name = "Dark's NPC"
-local dark = Model:FindFirstChild()
-dark.Humanoid.DisplayName = "Dark"
+Model.Dark.Humanoid.DisplayName = "jamal"
+Model.Dark.Humanoid.HealthDisplayType = "DisplayWhenDamaged"
+Model.Dark.Humanoid.DisplayDistanceType = "Viewer"
